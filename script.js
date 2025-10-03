@@ -16,7 +16,7 @@ bands.sort((a, b) => {
 
 
 let ul= document.createElement('ul')
-ul.setAttribute('id','band')
+ul.setAttribute('id','#bands')
 
 bands.forEach((word)=>{
 	let li= document.createElement('li')
